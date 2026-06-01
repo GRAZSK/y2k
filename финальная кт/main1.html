@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Розовый дизайн</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mstile.css" />
+    <script src="script.js"></script>
+    
+  </head>
+  <body>
+    <!-- ХЕДЕР -->
+    <header class="header">
+      <nav>
+        <a href="main1.html">главная</a>
+        <a href="bimbo.html">бимбы</a>
+        <a href="goth.html">готки</a>
+        <a href="gyaru.html">гиару</a>
+      </nav>
+    </header>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ -->
+    <main class="main-content">
+      <div class="top-border"></div>
+
+      <div class="content-wrapper">
+        <div class="left-column">
+          <div class="player">
+            <div class="header" id="trackTitle">Выберите трек</div>
+
+            <div class="visualizer" id="eq">
+              <!-- 16 bars -->
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+
+            <div class="controls">
+              <button class="btn" id="prev">⏮</button>
+              <button class="btn" id="play">▶</button>
+              <button class="btn" id="pause">⏸</button>
+              <button class="btn" id="next">⏭</button>
+            </div>
+
+            <div class="playlist" id="playlist"></div>
+          </div>
+
+          <audio id="audio" preload="metadata"></audio>
+        </div>
+        <div class="right-column">
+          <img src="things/lips.jpg" alt="">
+        </div>
+      </div>
+
+    
+
+<div class="image-grid">
+    <div class="image-item"
+         data-page="bimbo.html"
+         
+         data-title="Бимбы"
+         data-desc="Главная страница про бимб">
+        <img src="./mainimg/bimbo.jpg" alt="Бимбы">
+        <a href="bimbo.html">Перейти</a>
+    </div>
+
+    <div class="image-item"
+         data-page="gotki.html"
+         
+         data-title="Готки"
+         data-desc="Страница про готок">
+        <img src="./mainimg/готки.jpg" alt="Готка">
+        <a href="goth.html">Перейти</a>
+    </div>
+
+    <div class="image-item"
+         data-page="giaru.html"
+         
+         data-title="Гиару"
+         data-desc="Страница про гиару">
+        <img src="./mainimg/guaru.png" alt="Гиару">
+        <a href="gyaru.html">Перейти</a>
+    </div>
+</div>
+
+<!-- Модальное окно для превью (текста) -->
+<div id="preview-modal" class="preview-modal">
+    <div class="preview-content">
+        <span class="close">&times;</span>
+        <img id="preview-image" src="" alt="Превью страницы">
+        <h3 id="preview-title"></h3>
+        <p id="preview-desc"></p>
+    </div>
+</div>
+
+
+
+
+
+      <div class="bottom-border"></div>
+    </main>
+<section class="section">
+  <div class="content-row">
+    <div id="score">0</div>
+    <div class="clicker-container">
+      <img id="clicker-img" src="mainimg/6f7e964d.gif" alt="гиару">
+    </div>
+  </div>
+</section>
+    <!-- ФУТЕР -->
+    <footer class="footer">
+      <nav>
+        <div class="footer-content">
+      <div class="footer-links">
+        <a href="main1.html">Главная</a>
+        <a href="bimbo.html">Бимбы</a>
+        <a href="goth.html">готки</a>
+        <a href="gyaru.html">гиару</a>
+       
+      </div>
+      <div class="footer-copyright">
+        © 2025 Мой сайт. Все права защищены.
+      </div>
+      </nav>
+    </footer>
+    <script src="m.js"></script>
+  </body>
+</html>
